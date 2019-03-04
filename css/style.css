@@ -30,10 +30,43 @@ p{
 }
 ul{
 	margin:0;
-	padding:0;
+	/* padding:0; */
 }
 label{
 	margin:0;
+}
+.tech-btm20 .deta ul{
+    padding-left: 20px;
+}
+.tech-btm20 p {
+    margin: 1em 0;
+    font-size: 0.875em;
+    color: #777;
+	line-height:1.8em;
+}
+.tech-btm20 h4 {
+    font-size: 1.2em;
+    color: #4573d1;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.tech-btm20 {
+    padding: 1em 1em;
+    background: #fff;
+}
+.tech-btm20 {
+    padding: 1em 0.5em;
+    background: #fff;
+}
+.tech-btm20 p {
+    font-size: 0.85em;
+}
+.tech-btm20 h4 {
+    font-size: 1.4em;
+}
+.tech-btm20 {
+    padding: 1em 1em;
+    background: #fff;
 }
 /*-- Header --*/
 .header {
@@ -53,6 +86,7 @@ label{
 .header-search{
     width: 25%;
 }
+
 /*--social-icons--*/
 .social-icons {
     margin-top: 0.5em;
@@ -451,6 +485,9 @@ i.glyphicon.glyphicon-comment {
     width: 100%;
     margin-left: 0.5em;
 }
+.tech-btm .deta ul{
+    padding-left: 20px;
+}
 .tech-btm p {
     margin: 1em 0;
     font-size: 0.875em;
@@ -460,9 +497,9 @@ i.glyphicon.glyphicon-comment {
 .tech-btm1 p {
     margin: 1em 0;
     color: #4A4747;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.6em;
-    border-bottom: solid #aeaeae 1px;
+    /* border-bottom: solid #aeaeae 1px; */
 }
 .tech-btm h4 {
     font-size: 1.2em;
@@ -534,6 +571,30 @@ i.glyphicon.glyphicon-comment {
     padding: 1.3em 0;
 }
 /*--technology-right--*/
+.countdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0px 0px;
+    text-align: center;
+    color: #fff;
+    /* border: 1px solid black; */
+  }
+  
+  .countdown .day, .countdown .hour, .countdown .min, .countdown .sec {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .countdown .day .num, .countdown .hour .num, .countdown .min .num, .countdown .sec .num {
+    display: block;
+    font-size: 30px;
+  }
+  
+  .countdown .day .word, .countdown .hour .word, .countdown .min .word, .countdown .sec .word {
+    display: block;
+    font-size: 15px;
+  }
 /*-- Timeline -- */
 .timeline,
 .timeline-horizontal {
@@ -1877,6 +1938,7 @@ label.on {
 .technology-right {
     width: 30%;
     float: left;
+    padding-bottom: 10px;
 }
 .tech-btm h5 {
     font-size: 0.9em;
@@ -2047,7 +2109,7 @@ h5.top {
 .technology-right {
     width: 100%;
     float: left;
-    padding: 0;
+    padding-bottom: 10px;
 }
 .tech-btm {
     padding: 2em 2em;
